@@ -1,0 +1,4 @@
+DecisionTree.java - Takes the name of a csv file, the name of a decision tree algorithm (ID3, C4.5, C4.5NP, or C4.5NSI), and a random seed number in the form "java DecisionTree <csvfile> <algorithm> <seed>". It will then create a decision tree based on the file provided using the either the ID3 or C4.5 algorithm - the latter with or without pruning and split information - test it, and output a csv file with a name in the format <algorithm><dataset><seed>.csv that contains a confusion matrix detailing the results of the test.
+Fixed several minor problems with the previous version, enabling all algorithms to run, though C4.5NP runs very slowly on both hypothyroid and opticalDigits, and C4.5 runs very slowly on hypothyroid.
+
+DecisionTree.class, DecisionTree$1.class, DecisionTree$Tree.class and DecisionTree$InstanceComparator.class are the class files created by compiling DecisionTree.java using the makefile provided.

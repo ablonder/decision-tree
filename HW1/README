@@ -1,0 +1,3 @@
+DecisionTree.java - Takes the name of a csv file, the name of a decision tree algorithm, and a random seed number in the form "java DecisionTree <csvfile> <algorithm> <seed>". It will then create a decision tree based on the file provided using the ID3 algorithm (more to come), test it, and output a csv file with the name "ConfusionMatrix.csv" that contains a confusion matrix detailing the results of the test.
+
+DecisionTree.class and DecisionTree$Tree.class are the class files created by compiling DecisionTree.java. If there is a problem with them on your computer, just recompile DecisionTree.java.
